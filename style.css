@@ -23,6 +23,7 @@ body {
   background-image: url('intro-bg.jpg');
   background-size: cover;
   background-position: center;
+    padding: 7.5em;
 }
 
 /* bio card */
@@ -53,19 +54,43 @@ body {
 
 /** RESUME SECTION **/
 #resume-parent {
-  padding: 4em 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 5em ;
   background: #EEE;
+  height: 600 px;
+  align-content:flex-end
+
+}
+#skills{
+    order:2;
 }
 
+#education{
+    order:2;
+    }
+
+#careerinterests{
+    order:3;
+}
+
+#involvement{
+    order:1;
+}
 .resume-child {
   border: 1px solid #DEE0DE;
-  margin: 1em;
+  margin: 3em;
   background: #FFF;
+  padding: 1em ;
   color: #515251;
+  width: 2000 px
 }
 
 .div-title {
   padding: 0.5em;
   font-size: 1.25em;
   background: #B4DBE5;
+  margin-left: auto;
+  margin-right: auto
 }
